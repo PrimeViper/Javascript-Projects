@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: url(./background.webp);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-style: italic;
+  color: rgb(60, 20, 20);
+  text-decoration: underline;
+  top: 1px;
+  left: 200px;
+}
+
+.container {
+  width: 700px;
+  margin: 100px auto 0;
+  margin-top: 200px;
+  border-radius: 40px 0 40px 0;
+  padding: 40px;
+  background: linear-gradient(#ada996, #f2f2f2, #dbdbdb, #eaeaea);
+}
+.container p {
+  font-size: 30px;
+  min-height: 120px;
+  text-shadow: 6px -1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.container span {
+  display: block;
+  float: right;
+   margin-top: 10px;
+}
+
+.container div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container button {
+  color: black;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: tan;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

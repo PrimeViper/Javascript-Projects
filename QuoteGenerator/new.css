@@ -1,0 +1,12 @@
+.main-container{
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: auto;
+}
+
